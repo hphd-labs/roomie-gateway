@@ -36,7 +36,7 @@ func main() {
 
 	// Setup the router
 	mux := powermux.NewServeMux()
-	mux.Route(ROUTE_AUTH + "/*").Any(authGateway)
+	mux.Route(ROUTE_AUTH).Any(authGateway).Route("*").Any(authGateway)
 
 	// Run the server
 	port := os.Getenv(CONF_PORT)
