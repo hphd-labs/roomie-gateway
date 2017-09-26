@@ -31,7 +31,7 @@ func main() {
 		if err != nil {
 			logger.WithField(CONF_AUTH_UPSTREAM, authUpstreamPath).Fatal("Invalid Auth Upstream")
 		}
-		authGateway = httputil.NewSingleHostReverseProxy(authUpstream)
+		authGateway = NewHostReverseProxy(authUpstream)
 	}
 
 	// Setup the router
