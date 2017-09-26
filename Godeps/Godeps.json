@@ -1,0 +1,20 @@
+{
+	"ImportPath": "github.com/hphd-labs/roomie-gateway",
+	"GoVersion": "go1.8",
+	"GodepVersion": "v79",
+	"Deps": [
+		{
+			"ImportPath": "github.com/Sirupsen/logrus",
+			"Comment": "v1.0.0-1-g85b1699",
+			"Rev": "85b1699d505667d13f8ac4478c1debbf85d6c5de"
+		},
+		{
+			"ImportPath": "github.com/andrewburian/powermux",
+			"Rev": "877e8870a009b1123f78362449d6d71180064de1"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "99f16d856c9836c42d24e7ab64ea72916925fa97"
+		}
+	]
+}
