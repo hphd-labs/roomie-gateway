@@ -13,6 +13,11 @@
 			"Rev": "877e8870a009b1123f78362449d6d71180064de1"
 		},
 		{
+			"ImportPath": "github.com/kelseyhightower/envconfig",
+			"Comment": "v1.3.0-8-g462fda1",
+			"Rev": "462fda1f11d8cad3660e52737b8beefd27acfb3f"
+		},
+		{
 			"ImportPath": "golang.org/x/sys/unix",
 			"Rev": "99f16d856c9836c42d24e7ab64ea72916925fa97"
 		}
